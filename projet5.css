@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+
+
+
+body{
+	padding: 0px;
+	margin:0px;
+}
+
+header{
+	position: relative;
+	padding-bottom: 103px;
+	background-image: url('fallingleaves.png');
+}
+
+.menu a:link{
+	text-decoration: none;
+	color: black;
+	background-image: url('listhover.gif');
+}
+
+.menu a:hover{
+	border-top: 3px solid black;
+	padding-top: 27px;
+	text-shadow:0px 0px 10px #ca9421, 0px 0px 10px #ca9421	;
+	font-size: 27px;
+}
+
+.menu a:visited{
+	text-decoration: none;
+	color:black;
+}
+
+.menu a:active{
+	text-decoration: none;
+	color:black;
+}
+
+.paullogo img{
+	height: 80px;
+	width: 80px;
+	float: left;
+	padding-right:18px;
+}
+
+.paul{
+	font-size: 60px;
+	font-family: 'Playfair Display SC', serif;
+	color: black;
+	padding-right:150px;
+	font-weight: bold;
+	text-shadow: 0 0 80px #525252,0 0 30px #3D3D3D,0 0 6px #242424;
+}
+
+.grosmenu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: ;
+    color:black;
+    font-size: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    position: fixed;
+    border-bottom: 3px solid white;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	width: 100%;
+	border-bottom: 3px solid black;
+	background-image: url('fallingleaves.png');
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: 100% 20%;
+}
+
+.menu2{
+	margin-top: 27px;
+}
+
+.p{
+	animation: p 10s linear infinite;
+}
+.ul{
+	animation: ul 10s linear infinite;
+}
+
+@keyframes p {
+  0%,12%,18.999%,23%,31.999%,37%,44.999%,46%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100% {
+    opacity:0.99; text-shadow: 0 0 80px #525252,0 0 30px #3D3D3D,0 0 6px #242424;
+  }
+  19%,22.99%,32%,36.999%,45%,45.999%,50%,50.99%,59%,60.999%,69%,70.999%,86%,95.999% { 
+    opacity:0.4; text-shadow: none; 
+  }
+}
+
+@keyframes ul {
+  0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
+    opacity:.99; text-shadow: 0 0 80px #525252,0 0 30px #3D3D3D,0 0 6px #242424;
+  }
+  20%,21.999%,63%,63.999%,65%,69.999% {
+    opacity:0.4; text-shadow: none; 
+  }
+}
+
+footer{
+	margin:0px;
+	padding: 0px;
+	color: black;
+	border-top: 3px solid black;
+	background-color: white;
+	height: auto;
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+.tableau{
+	display: flex;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+.tableau img{
+	float:right;
+	width: 40px;
+	height: 40px;
+	margin-right:-550px;
+}
+
+.tableau img:hover{
+	float:right;
+	width: 55px;
+	height: 55px;
+	margin-right:-550px;
+}
+
+.footerlogo{
+	height: 100%;
+	margin:0px;
+}
+
+.footerlogo img{
+	width: 120px;
+	height: 120px;
+	padding-top: 30px;
+
+}
+
+.footerrangement{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.footermenu{
+	font-size: 30px;
+	padding-right: 60px;
+	padding-top: 35px;
+	border-left:3px solid black;
+	height: 16.75vh;
+	padding-left: 30px;
+}
+
+.footermenu2{
+	font-size: 30px;
+	padding-left: 60px;
+	padding-top: 35px;
+	border-right:3px solid black;
+	height: 16.75vh;
+	padding-right: 30px;
+}
+
+.footermenu2 a:hover{
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+}
+
+.footermenu2 a:link{
+	text-decoration: none;
+	color: black;
+}
+
+.footermenu2 a:hover{
+	text-shadow:0px 0px 10px #ca9421, 0px 0px 10px #ca9421;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: absolute;
+}
+
+.footermenu2 a:visited{
+	text-decoration: none;
+	color:black;
+}
+
+.footermenu2 a:active{
+	text-decoration: none;
+	color:black;
+}
+.footermenu a:hover{
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+}
+
+.footermenu a:link{
+	text-decoration: none;
+	color: black;
+}
+
+.footermenu a:hover{
+	text-shadow:0px 0px 10px #ca9421, 0px 0px 10px #ca9421;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: absolute;
+}
+
+.footermenu a:visited{
+	text-decoration: none;
+	color:black;
+}
+
+.footermenu a:active{
+	text-decoration: none;
+	color:black;
+}
+
+.footerimage img{
+	height: 190px;
+	width: 300px;
+	float: left;
+}
+
